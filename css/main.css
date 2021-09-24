@@ -7,6 +7,11 @@
 }
 /* utility */
 
+.title-column {
+    border: 1px solid #d0d0d3;
+}
+
+
 .clearfix::after {
     content: "";
     display: table;
@@ -32,6 +37,11 @@ a {
     padding-top: 20px;
 }
 
+.hero-title {
+    font-weight: bold;
+    font-size: 60px;
+}
+
 .arrow {
     font-size: 40px;
     margin-top: 20px;
@@ -46,6 +56,7 @@ a {
 .debug-box {
     width: 100%;
     height: 50px;
+    border: 1px solid black;
     background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -106,7 +117,7 @@ nav {
 
 .hero-container{
     width: 80%;
-    height: 650px;
+    height: 700px;
     margin: 0 auto;
     position: relative;
     top: 80px;
@@ -118,23 +129,13 @@ nav {
 
 .section-left {
     width: 50%;
-    /* height: 200px; */
-    /* background: yellow; */
     float: left;
 }
 
 .section-right {
     width: 50%;
-    margin-top: 100px;
-    /* background-color: green; */
     float: left;
     margin-top: 200px;
-}
-
-
-.hero-title {
-    font-weight: bold;
-    font-size: 50px;
 }
 
 .section-right img {
@@ -143,7 +144,36 @@ nav {
 }
 
 .section-left .blu-button {
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 20px;
     display: block;
+}
+
+/* main */
+
+.main-container {
+    margin: 40px auto;
+    width: 80%;
+    /* height: 700px; */
+    background: green;
+}
+
+.title-main {
+    background-color: red;
+    width: 100%;
+}
+
+.column-main {
+    width: 30%;
+    float: left;
+    margin: 8px 15px;
+    border: 1px solid black ;
+    background-color: #0061ff;
+}
+
+.central-column {
+    width: 100%;
+    margin: 10px 0;
+    background: yellow;
+    text-align: center;
 }
