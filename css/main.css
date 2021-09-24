@@ -29,7 +29,17 @@ a {
     font-size: 25px;
     line-height: 30px;
     font-weight: normal;
-    padding-top: 80px;
+    padding-top: 20px;
+}
+
+.arrow {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.bg-blu {
+    background: #b4d0e7;
 }
 
 /* debug-section */
@@ -94,13 +104,9 @@ nav {
 
 /* hero-section */
 
-.hero {
-    background: #b4d0e7;
-}
-
 .hero-container{
     width: 80%;
-    height: 600px;
+    height: 650px;
     margin: 0 auto;
     position: relative;
     top: 80px;
@@ -112,18 +118,23 @@ nav {
 
 .section-left {
     width: 50%;
-    height: 200px;
+    /* height: 200px; */
+    /* background: yellow; */
+    float: left;
 }
 
 .section-right {
     width: 50%;
-    float: right;
+    margin-top: 100px;
+    /* background-color: green; */
+    float: left;
+    margin-top: 200px;
 }
 
 
 .hero-title {
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .section-right img {
@@ -133,5 +144,6 @@ nav {
 
 .section-left .blu-button {
     margin-top: 20px;
-    
+    margin-bottom: 20px;
+    display: block;
 }
