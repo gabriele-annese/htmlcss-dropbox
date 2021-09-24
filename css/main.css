@@ -154,11 +154,11 @@ nav {
 .main-container {
     margin: 100px auto;
     width: 80%;
-    background: green;
+    /* background: green; */
 }
 
 .title-main {
-    background-color: red;
+    /* background-color: red; */
     width: 100%;
 }
 
@@ -173,7 +173,6 @@ nav {
     float: left;
     margin: 8px 15px;
     border: 2px solid #d0d0d3;
-    background-color: #0061ff;
     line-height: 25px;
 }
 .central-column {
@@ -187,14 +186,17 @@ nav {
     font-size: 20px;
 }
 
+/* LIST */
 .column-main .list-top ul,
-.column-main .list-top2 ul {
+.column-main .list-top2 ul,
+.column-main .list-bottom ul {
     list-style: none;
     margin-bottom: 50px;
 }
 
 .column-main .list-top li,
-.column-main .list-top2 li{
+.column-main .list-top2 li,
+.column-main .list-bottom li {
     padding: 5px;
 }
 
@@ -203,6 +205,7 @@ nav {
     margin-left: 20%;
     margin-bottom: 20px;
 }
+/* TOP-LIST */
 
  .buy-now{
     display: inline-block;
@@ -214,4 +217,20 @@ nav {
 
 .column-main .buy-now:hover a {
     color:#0061ff;
+}
+
+/* BOTTOM-LIST */
+
+.list-bottom  h2 {
+    margin-bottom: 20px;
+}
+
+.list-bottom li span {
+    line-height: 26px;
+    padding: 10px;
+}
+
+.list-bottom li i {
+    color: #0061ff;
+    font-size: 25px;
 }
