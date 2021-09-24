@@ -162,26 +162,39 @@ nav {
     width: 100%;
 }
 
+.radio-section {
+    padding: 20px;
+}
+
+/* column-section */
+
 .column-main {
     width: 30%;
     float: left;
     margin: 8px 15px;
     border: 2px solid #d0d0d3;
     background-color: #0061ff;
+    line-height: 25px;
 }
-
 .central-column {
     width: 100%;
     margin: 10px 0;
     background: yellow;
     border: 2px solid #d0d0d3;
 }
-
-.radio-section {
-    padding: 20px;
-}
-
 .title-column {
     text-align: center;
     font-size: 20px;
 }
+
+.column-main .list-to ul,
+.column-main .list-to2 ul {
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+.column-main .list-to li,
+.column-main .list-to2 li{
+    padding: 5px;
+}
+
