@@ -32,16 +32,11 @@ a {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* header */
-header {
-    width: 100%;
-    background-color: lightblue;
-    line-height: 80px;
-}
+/*  header  */
 
 nav {
     width: 100%;
-    background-color: lightblue;
+    background-color: #fff;
     line-height: 80px;
     position: fixed;
     border-bottom: 1px solid black;
@@ -93,6 +88,6 @@ nav {
 
 .hero {
     width:100%;
-    background: blue;
+    background: lightblue;
     height: 1500px;
 }
