@@ -1,0 +1,40 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* utility */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* debug-section */
+.debug-box {
+    width: 100px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* header */
+header {
+    width: 100%;
+    background-color: lightblue;
+}
+
+
+.header-left {
+    width: 50%;
+    background: green;
+    display: inline-block;
+}
+
+.header-right {
+    width: 50%;
+    background: yellow;
+    float: right;
+}
