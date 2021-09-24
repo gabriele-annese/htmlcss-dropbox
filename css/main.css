@@ -8,7 +8,7 @@
 /* utility */
 
 .title-column {
-    border: 1px solid #d0d0d3;
+    border-bottom: 1px solid #d0d0d3;
 }
 
 
@@ -154,7 +154,6 @@ nav {
 .main-container {
     margin: 100px auto;
     width: 80%;
-    /* height: 700px; */
     background: green;
 }
 
@@ -167,7 +166,7 @@ nav {
     width: 30%;
     float: left;
     margin: 8px 15px;
-    border: 1px solid black ;
+    border: 2px solid #d0d0d3;
     background-color: #0061ff;
 }
 
@@ -175,5 +174,14 @@ nav {
     width: 100%;
     margin: 10px 0;
     background: yellow;
+    border: 2px solid #d0d0d3;
+}
+
+.radio-section {
+    padding: 20px;
+}
+
+.title-column {
     text-align: center;
+    font-size: 20px;
 }
