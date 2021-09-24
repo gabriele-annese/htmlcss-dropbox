@@ -135,7 +135,7 @@ nav {
 .section-right {
     width: 50%;
     float: left;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .section-right img {
@@ -152,7 +152,7 @@ nav {
 /* main */
 
 .main-container {
-    margin: 40px auto;
+    margin: 100px auto;
     width: 80%;
     /* height: 700px; */
     background: green;
