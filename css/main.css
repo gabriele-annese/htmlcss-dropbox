@@ -234,3 +234,44 @@ nav {
     color: #0061ff;
     font-size: 25px;
 }
+
+
+/* CENTRAL-COLLUMN */
+
+.central-container {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.central-container .left {
+    width: 70%;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.left h4,h5 {
+    line-height: 40px;
+}
+
+ .left h4 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.left h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.central-container .contact {
+    width: 30%;
+    float: right;
+}
+
+.central-container  .contact button {
+    margin-top: 20px;
+}
+
+.central-container .paragraph {
+    margin: 20px 0;
+}
