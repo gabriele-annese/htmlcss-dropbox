@@ -515,8 +515,6 @@ nav {
     width: 100%;
     padding: 50px 20px;
     background: #000;
-    height: 400px;
-    margin-top: 100px;
 }
 
 .column-footer{
@@ -527,6 +525,7 @@ nav {
 .column-footer .column-content {
     width: calc(100% / 5);
     float: left;
+    padding: 0 30px;
 }
 
 .footer-container ul {
@@ -547,4 +546,27 @@ nav {
     color: #fff;
     font-weight: bold;
     font-size: 20px;
+}
+
+/* LANGUAGES */
+
+.languages {
+    border-top: 2px solid #bfbfbf ;
+    width: 150px;
+    margin: 100px 0;
+    padding: 20px 0;
+}
+
+.languages .fa-globe-europe { 
+    color: #fff;
+    padding: 0 5px;
+}
+
+.languages span {
+    color: #fff;
+}
+
+.languages .fa-angle-up {
+    color: #fff;
+    padding: 0 5px;
 }
