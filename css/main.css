@@ -145,6 +145,8 @@ nav li:hover {
 .section-right img {
     width: 100%;
     object-fit: cover;
+    position: relative;
+    top: 30px;
 }
 
 .section-left .blu-button {
