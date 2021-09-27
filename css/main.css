@@ -157,11 +157,9 @@ nav {
 .main-container {
     margin: 100px auto;
     width: 80%;
-    /* background: green; */
 }
 
 .title-main {
-    /* background-color: red; */
     width: 100%;
 }
 
@@ -217,8 +215,9 @@ nav {
     margin-top: 10px;
 }
 
-.column-main .buy-now:hover a {
+.column-main  a {
     color:#0061ff;
+    text-decoration: underline;
 }
 
 /* BOTTOM-LIST */
@@ -314,6 +313,7 @@ nav {
 
 .text-partner button {
    margin-top: 50px;
+   border: 1px solid black;
 }
 
 .text-partner .blu-button {
