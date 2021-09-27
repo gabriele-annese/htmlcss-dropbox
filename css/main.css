@@ -356,3 +356,38 @@ nav {
 .top-table .title-partner  a {
     text-decoration:underline;
 }
+
+/* BRAND-LIST */
+
+.title-brand{
+    width: 60%;
+    margin: 50px auto;
+}
+
+.brand-section {
+    width: 100%;
+    background: blue;
+    height: 200px;
+}
+.brand-section ul {
+    list-style: none;
+}
+
+.brand-section ul li{
+    width: calc( 100% /3);
+    float: left;
+    background: red;
+    border: 2px solid black;
+}
+
+.brand-section .box-brand {
+    width: 50%;
+    background: yellow;
+    border: 2px solid black;
+    float: left;
+}
+
+.brand-section .brand-text {
+   width: 100%;
+   background: green;
+}
