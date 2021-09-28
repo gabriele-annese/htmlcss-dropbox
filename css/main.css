@@ -60,6 +60,22 @@ a {
     background: #b4d0e7;
 }
 
+/* ANIMATION */
+
+.arrow {
+    animation: up-down 1s linear alternate-reverse infinite;
+    position: relative;
+}
+
+@keyframes up-down {
+    to {
+        left:0px; top:0px;
+    }
+    from {
+        left:0px; top:-30px;
+    }
+}
+
 /*  header  */
 
 nav {
