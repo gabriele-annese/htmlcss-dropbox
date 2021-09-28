@@ -620,13 +620,15 @@ nav .has-children:hover .fa-angle-up {
 }
 
 .arrow-up {
-    display: none;
+    visibility: hidden;
+    opacity: 0;
     font-size: 30px;
     padding-bottom: 50px;
 }
 
 .question .title-main:hover .arrow-up{
-   display: block;
+   visibility: visible;
+   opacity: 1;
 }
 
 /* footer */
