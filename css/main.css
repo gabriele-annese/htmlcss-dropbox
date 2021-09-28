@@ -400,7 +400,12 @@ nav li:hover {
 
 .img-brand {
     width: 100%;
+    border: 10px solid transparent;
 }
+
+/* .img-brand:hover {
+    border: 10px solid #000;
+} */
 
 .img-brand img {
     width: 100%;
@@ -432,32 +437,60 @@ nav li:hover {
     background: #a2d39b;
 }
 
+#designit:hover {
+    border: 10px solid #52b69a;
+}
+
 #arizona {
     background: #61082b;
+}
+
+#arizona:hover {
+    border: 10px solid #540b0e;
 }
 
 #florida {
     background:#0093ce ;
 }
 
+#florida:hover{
+    border: 10px solid #1d3557;
+}
+
 #topps {
     background: #ff1c1c;
+}
+
+#topps:hover {
+    border: 10px solid #e76f51;
 }
 
 #world {
     background: #d5001f;
 }
+#world:hover{
+    border: 10px solid #9d0208; 
+}
 
 #hearst {
     background: #b4d0e7;
+}
+#hearst:hover {
+    border: 10px solid #168aad; 
 }
 
 #planet {
     background: #0d2481;
 }
+#planet:hover {
+    border: 10px solid #4895ef;
+}
 
 #clear {
     background: #ffd830;
+}
+#clear:hover{
+    border: 10px solid #ff6d00;
 }
 
 /* AZIENDA */
