@@ -167,13 +167,14 @@ nav li:hover {
 }
 
 .radio-section {
-    padding: 20px;
+    margin: 20px 30px;
 }
 
 /* column-section */
 
 .column-main {
     width: 30%;
+    height: 800px;
     float: left;
     margin: 8px 15px;
     border: 2px solid #d0d0d3;
@@ -513,6 +514,34 @@ nav li:hover {
 
 .question .fa-angle-down {
     font-size: 30px;
+}
+
+/* HOVER P */
+
+.question p{
+    display: none;
+    line-height: 30px;
+    font-size: 20px;
+    width: 60%;
+    padding: 0 20px;
+}
+
+.question .title-main:hover p{
+    display: block;
+}
+
+.question .title-main:hover .fa-angle-down{
+    display: none;
+}
+
+.arrow-up {
+    display: none;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+.question .title-main:hover .arrow-up{
+   display: block;
 }
 
 /* footer */
