@@ -71,7 +71,6 @@ nav {
     z-index: 1;
 }
 
-
 .header-left {
     width: 50%;
     display: inline-block;
@@ -84,7 +83,39 @@ nav {
 }
 
 nav li:hover {
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid #0061ff;
+}
+
+/* DROP-MENU */
+.has-children{
+    position: relative;
+}
+
+ nav .has-children:hover .sub-menu {
+    transition: .5s;
+    visibility: visible;
+    opacity: 1;
+    top: 50px;
+ }
+
+.sub-menu {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background: #fff;
+    border: 1px solid #000;
+    border-bottom: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.sub-menu li {
+    width: 200px;
+    border-bottom: 1px solid #000;
+}
+
+.sub-menu:hover{
+    display: block;
 }
 
 /* section left */
@@ -172,7 +203,10 @@ nav li:hover {
     font-weight: medium;
     display: inline-block;
     padding: 50px 20px;
+    cursor: pointer;
+    position: relative;
 }
+
 
 /* column-section */
 
@@ -373,7 +407,7 @@ nav li:hover {
 
 .title-brand{
     width: 60%;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 
 .brand-section {
@@ -403,10 +437,6 @@ nav li:hover {
     border: 10px solid transparent;
 }
 
-/* .img-brand:hover {
-    border: 10px solid #000;
-} */
-
 .img-brand img {
     width: 100%;
     height: 150px;
@@ -419,7 +449,7 @@ nav li:hover {
 .brand-text {
     padding: 20px 20px;
     background: #f5f5f5;
-    height: 426px;
+    height: 460px;
 }
 
 .brand-text p {

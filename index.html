@@ -21,8 +21,23 @@
                 <li>
                     <img src="./img/logo-small.png" alt="brand">
                 </li>
-                <li>
+                <li class="has-children">
                     <a href="#partner">Perché Dropbox?</a>
+                    <i class="fas fa-angle-down"></i>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="#price">Piani e prezzi</a>
+                        </li>
+                        <li>
+                            <a href="#funzioni">Funzioni</a>
+                        </li>
+                        <li>
+                            <a href="#">Accedi </a>
+                        </li>
+                        <li>
+                            <a href="#supporto">Supporto</a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <a href="#funzioni">Funzioni</a>
@@ -80,14 +95,14 @@
         <div class="main-container" id="price">
             <div class="title-main">
                 <h1>Trova il piano Dropbox Business che fa per te</h1>
-                <div class="radio-section">
-                    <input type="radio" id="mensile"> 
-                    <label for="mensile">Fatturazione mensile</label>
-                </div>
-                <div class="radio-section">
-                    <input type="radio" id="annuale"> 
-                    <label for="annuale">Fatturazione annuale</label>
-                </div>
+                <label class="radio-section">Fatturazione mensile
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="radio-section">Fatturazione annuale
+                    <input type="checkbox"checked="checked">
+                    <span class="checkmark"></span>
+                </label>
             </div>
             <!-- Column-1 -->
         <div class="float-column clearfix">
