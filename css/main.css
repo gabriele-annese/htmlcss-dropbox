@@ -178,7 +178,7 @@ nav li:hover {
 
 .column-main {
     width: 30%;
-    height: 800px;
+    height: 900px;
     float: left;
     margin: 8px 15px;
     border: 2px solid #d0d0d3;
@@ -205,7 +205,11 @@ nav li:hover {
 .column-main .list-top li,
 .column-main .list-top2 li,
 .column-main .list-bottom li {
-    padding: 5px;
+    padding: 10px;
+}
+
+ .list-top li h2 {
+    padding-top: 20px;
 }
 
 .column-main  button {
