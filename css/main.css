@@ -91,6 +91,20 @@ nav li:hover {
     position: relative;
 }
 
+nav .has-children .fa-angle-up {
+    visibility: hidden;
+    opacity: 0;
+}
+
+nav .has-children:hover .fa-angle-down {
+    display: none;
+}
+
+nav .has-children:hover .fa-angle-up {
+    visibility: visible;
+    opacity: 1;
+}
+
  nav .has-children:hover .sub-menu {
     transition: .5s;
     visibility: visible;
