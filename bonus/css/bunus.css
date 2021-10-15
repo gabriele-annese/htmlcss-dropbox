@@ -1,0 +1,92 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    padding-top: 80px;
+}
+
+ul{
+    list-style: none;
+}
+
+/* utility */
+
+.title {
+    font-weight: 600;
+    color: #000;
+}
+
+.p-stile{
+    line-height: 25px;
+    font-size: 17px;
+
+}
+
+.icon{
+    
+}
+
+/* HEDAER */
+
+header .navbar{
+    height: 80px;
+}
+
+header .navbar .nav-item {
+    padding: 0 10px;
+}
+
+header .navbar .nav-item .nav-style{
+    font-weight: 600;
+    color: black;
+}
+
+header .navbar .nav-item:hover .nav-style {
+    border-bottom: 3px solid blue ;
+    color: blue;
+}
+
+.btn-stile {
+    border-radius: 10px;
+}
+
+/* MIAN */
+/* hero */
+.hero{
+    background-color: #b4d0e7;
+    padding-top: 20px;
+    position: relative;
+}
+
+.box-hero{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top:25%;
+    left: 15%;
+}
+
+ .box-hero img {
+     object-fit: contain;
+     width: 100%;
+     height: 100%;
+}
+
+/* business  */
+.business{
+    margin-top: 150px;
+}
+
+.radio-section{
+    padding-right: 15px;
+}
+
+.col-content {
+    border: 2px solid #d5d5d8;
+}
+
+.col-content2 {
+    border: 2px solid #d5d5d8;
+    border-top: 0;
+}
