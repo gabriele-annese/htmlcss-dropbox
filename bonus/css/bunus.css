@@ -24,7 +24,11 @@ ul{
 }
 
 .icon{
-    
+    font-size: 20px;
+}
+
+.icon2{
+    font-size: 15px;
 }
 
 /* HEDAER */
